@@ -1,4 +1,4 @@
-Keylogger Project Readme
+## Keylogger Project Readme
 Overview
 This Python script serves as a basic keylogger, capturing key presses and saving them to a log file named 'log.txt'. The code utilizes the pynput library to monitor and record keyboard input. Additionally, there is a function clean() from a module KLcleaner (presumably related to cleaning up after the keylogging process).
 

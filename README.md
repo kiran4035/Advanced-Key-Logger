@@ -13,7 +13,9 @@ python
 
 ''' Copy code
 from pynput.keyboard import Key, Listener
-from KLcleaner import clean '''
+from KLcleaner import clean 
+'''
+
 The script initializes an empty list called keys to store the pressed keys.
 python
 Copy code

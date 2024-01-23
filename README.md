@@ -2,16 +2,18 @@
 Overview
 This Python script serves as a basic keylogger, capturing key presses and saving them to a log file named 'log.txt'. The code utilizes the pynput library to monitor and record keyboard input. Additionally, there is a function clean() from a module KLcleaner (presumably related to cleaning up after the keylogging process).
 
-Dependencies
+
+## Dependencies
 pynput: This library is used for monitoring keyboard input.
 
-How it Works
+
+## How it Works
 The script imports necessary modules, including pynput.keyboard for keyboard monitoring, and the custom KLcleaner module for cleaning.
 python
 
-Copy code
+''' Copy code
 from pynput.keyboard import Key, Listener
-from KLcleaner import clean
+from KLcleaner import clean '''
 The script initializes an empty list called keys to store the pressed keys.
 python
 Copy code
